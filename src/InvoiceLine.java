@@ -8,7 +8,6 @@ public class InvoiceLine {
     private String description;
     private float price;
     private float discount;
-    //private DecimalFormat dollars = new DecimalFormat("$###,###,###.##");
 
     public InvoiceLine(int quantity, String item, String description, float price, float discount) {
         this.quantity = quantity;
